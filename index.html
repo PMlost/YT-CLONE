@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <!-- google font icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <div class="header">
+      <div class="header_left">
+        <span class="material-icons"> menu </span>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAA/CAMAAADt7Ke5AAAAn1BMVEX////+AAAAAAAaGhrIyMgjIyMgICBBQUHq6uoNDQ0cHBxfX19lZWWEhITLy8uwsLApKSn+hobh4eH+gIHZ2dnw8PD5+fkuLi5vb2+NjY0VFRVXV1e5ubk2NjaZmZn9amj9nZ39t7j9XlxOTk56enr+9PT+39/9xcP+qKn9lJP+6Oj8LSn8VVWkpKT9eXn919b9IiD9Ojn8RUb8r678cHFP8YHLAAAC6UlEQVRYhe2W3XqiMBCGx4FEAiopFRQUqvW/W9ttu/d/bTsD6CIo0oM+zx7kO1AnDvOSZGYSACMjIyMjIyMjox/UZrtbLveLw0Opw2K/XO5eNj9L3f/q3dDr+/ejjQeDYyfHt1tUFoMDRE1fI8RZ/dnIwlLj05CNatgFu23D9l7ZJRUYAWSJ8htckSRaayupcq1O3H0rt0dAGLo4AhhIDBrcLMtSLeMsdr7LbV3mXm/LoVRCWyZE/2qAvlBhxezKfa5Afje5S3IJlTulXXY5XhTWAxDXqZgF9+TVdD/powJ52H7WuV/ss5J9mCtlg+MpTAYUK04nPox0Oi25/2wb3diWKHjDfY0oGklRqAp5BPiqcRfsQykVxhZG0cS1UCYebbmFPiO8kju0KOlG6A5oUMyoAOSKp05czblxnwvwcME98NAY0fbcGRwVrfVMUPIOXcVcWeNK5upkPCZcBCuqgwDltBsXXl6rS5/vkrayCeXWVNLLHxN1bOVyHkw0vRxyJloi7cgFONS4MHX7Wo1pn+nDTyjwPS4tyiikFQfQGjtyN9XSKri+EjqNCEGz8BWt3D2uJ5Ud5NxJV+5lI8n3FxzULqeu7sK1zlydrtcd57ur1XDBpVap5nCar9uZK6hzq+vci/rdPPdq2hde1CTtHPGt+YpZ6DhOo7vmqpI+6tSiX5E8UeG66ybXveRyXjn5/obRVey9/vxe5XpCcR0l2Zlzi5tSJkQoqHmsEnmVu2jnbqrcmEt3zUs+tKwYMnXmxmwfVc6lwSDvG6mwABJ5/Th5b8V+QpVLbcjqu5Iqak4JLtL+mUu2JDvvk1qoRNMbwJEaB53dN64fT23cXem0QuaCz1cLSYkSpfQj8PgGMkF08k+V2zbi3OM/ORvZfX0dW2/IVX2csBCGRX5EI7u8WYyo3YdOyH85ZzsM6eSjsaA8CxzbvnkQUrDt8osvk29/nlh/3h7pSrmnC+XtR4yMjIyMjIyMjP4L/QW7dTcogT+VswAAAABJRU5ErkJggg=="
+          alt="youtube-img"
+        />
+      </div>
+      <div class="header_search">
+        <form>
+          <input type="text" placeholder="Search" />
+          <button><span class="material-icons"> search </span></button>
+        </form>
+      </div>
+      <div class="header_icons">
+        <span class="material-icons"> videocam </span>
+        <span class="material-icons"> apps </span>
+        <span class="material-icons"> notifications </span>
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- main body starts -->
+    <div class="mainbody">
+      <!-- sidebar starts -->
+      <div class="sidebar">
+        <div class="sidebar_categories">
+          <div class="sidebar_category">
+            <span class="material-icons"> home </span>
+            <span>Home</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> local_fire_department </span>
+            <span>Trending</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> subscriptions </span>
+            <span>Subscriptions</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="sidebar_categories">
+          <div class="sidebar_category">
+            <span class="material-icons"> library_add_check </span>
+            <span>Library</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> history </span>
+            <span>History</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> play_arrow </span>
+            <span>Your videos</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> watch_later </span>
+            <span>Watch later</span>
+          </div>
+          <div class="sidebar_category">
+            <span class="material-icons"> thumb_up </span>
+            <span>Liked videos</span>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar ends -->
+      <!-- videosection starts -->
+      <div class="videos">
+        <h1>Recommended</h1>
+        <div class="videos_container">
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+        </div>
+
+        <!-- 2-- -->
+        <div class="videos_container">
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+        </div>
+        <!-- 3-- -->
+        <div class="videos_container">
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+        </div>
+        <!-- 4-- -->
+        <div class="videos_container">
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+          <!-- single video starts -->
+          <div class="video">
+            <div class="video_thumbnail">
+              <img
+                src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="video_details">
+              <div class="author">
+                <img src="./images/profile_4.jpg" alt="" />
+              </div>
+              <div class="title">
+                <h3>Top 5 programming languages.</h3>
+                <a href="">FutureCoders</a>
+                <span>10M view + 3months ago</span>
+              </div>
+            </div>
+          </div>
+          <!-- single video ends -->
+        </div>
+      </div>
+      <!-- videosection ends -->
+    </div>
+    <!-- main body ends -->
+  </body>
+</html>
